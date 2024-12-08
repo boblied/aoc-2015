@@ -1,0 +1,19 @@
+https://adventofcode.com/2015/day/11
+
+Started out messing with base-23 arithmetic, but there's not really
+any programming needed.
+
+Notice that the smallest pattern that works is "aabcc" (two pairs, and a
+sequence of 3 in the middle).
+
+Part 1: cqjxjnds -> cqjxxyzz
+          ^^^         ^^^
+
+We want to change least significant digits. In the last five digits,
+that means "xj" -> "xx" (cqjxx...) then follow by "yzz"
+
+Part 2: cqjxxyzz -> cqkaabcc
+         ^^          ^^
+
+Can't use "jx", need to move further left.  Replace "qj" with "qk". That
+leaves five characters, so add the smallest pattern that works, "aabcc"
