@@ -4,7 +4,8 @@
 ## Part 1
 Use Perl RE to extract numbers.
 
-## Part 2: Input is in JSON format.
+## Part 2:
+Input is in JSON format.
 
 - Fail 1). No regex. Requires finding matching braces and brackets in nested cases.
 
